@@ -3,10 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>TravelEase - Online Travel Booking System</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <!-- Your content goes here -->
+    <header>
+        <nav>
+            <div class="logo">TravelEase</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to TravelEase</h1>
+            <p>Your one-stop solution for online travel booking</p>
+            <a href="#book" class="btn">Book Now</a>
+        </div>
+    </section>
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <img src="https://via.placeholder.com/300" alt="Destination 1">
+                <h3>Destination 1</h3>
+                <p>Explore the beauty of Destination 1.</p>
+            </div>
+            <div class="destination-card">
+                <img src="https://via.placeholder.com/300" alt="Destination 2">
+                <h3>Destination 2</h3>
+                <p>Discover the charm of Destination 2.</p>
+            </div>
+            <div class="destination-card">
+                <img src="https://via.placeholder.com/300" alt="Destination 3">
+                <h3>Destination 3</h3>
+                <p>Experience the magic of Destination 3.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Flight Booking</h3>
+                <p>Book flights to your favorite destinations at the best prices.</p>
+            </div>
+            <div class="service-card">
+                <h3>Hotel Reservations</h3>
+                <p>Reserve rooms in top hotels around the world.</p>
+            </div>
+            <div class="service-card">
+                <h3>Car Rentals</h3>
+                <p>Rent cars at your destination with ease.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 TravelEase. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
